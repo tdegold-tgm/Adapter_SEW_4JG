@@ -27,7 +27,9 @@ Man möchte ein Programm schreiben, welches die Temperatur eines Raumes in der F
 
 Um diesen Sensor zu simulieren, schreiben wir eine Klasse welche zufällige Werte liefert. Nun schreiben wir einen Adapter, um die Sensordaten abzufragen und diese in Celsius umzuwandeln[2]. Zum Schluss wird nun eine Anzeigeklasse geschrieben. Diese hat einen Adapter als Parameter und gibt über die Methode `displayData()` die umgewandelten Werte in der Konsole aus. 
 
+Wie wir sehen, entspricht unsere konkrete Umsetzung dem zugrundeliegenden Design-Pattern.
 
+![](/img/ImplementedAdapter.svg)
 
 ------
 
