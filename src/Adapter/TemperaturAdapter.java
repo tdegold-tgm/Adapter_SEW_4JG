@@ -1,4 +1,9 @@
-public class TemperaturAdapter implements SensorAdapter{
+package Adapter;
+
+import Adapter.SensorAdapter;
+import Sensor.TemperaturSensor;
+
+public class TemperaturAdapter implements SensorAdapter {
 
     private TemperaturSensor tempS;
 

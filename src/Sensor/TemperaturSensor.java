@@ -1,3 +1,5 @@
+package Sensor;
+
 public class TemperaturSensor {
     // typical range of room temperatur in Fahrenheit
     private final double MIN_TEMP = 68.0;
@@ -9,7 +11,6 @@ public class TemperaturSensor {
         // random temperature
         double random_temp = (double) (Math.random() * ((MAX_TEMP - MIN_TEMP) + 1)) + MIN_TEMP;
         // round temperature to 4 decimal places
-        System.out.println(random_temp);
         return (double)Math.round(random_temp * 10000) / 10000;
     }
 }

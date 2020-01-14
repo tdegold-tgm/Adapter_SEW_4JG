@@ -1,4 +1,11 @@
-public class TemperaturAnzeige implements SensorAnzeige{
+package Sensor;
+
+import Adapter.SensorAdapter;
+import Adapter.TemperaturAdapter;
+import Sensor.SensorAnzeige;
+import Sensor.TemperaturSensor;
+
+public class TemperaturAnzeige implements SensorAnzeige {
 
     private SensorAdapter adapter;
     private double current_temperatur;
