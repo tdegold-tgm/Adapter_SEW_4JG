@@ -10,6 +10,8 @@ Von einem Adapter hat jeder schonmal gehört. Das Fehlen eines VGA-zu-HDMI-Adapt
 
 ## Definition
 
+![](/img/Adapter.svg)
+
 Bei einem Adapter liegt immer das Problem vor, dass ein Programm auf Funktionen eines anderen Programms (Dienst) zugreifen möchte. Dies ist so aber nicht möglich, da die Programme in ihrer Architektur so auseinandergehen, dass sie nicht einfach aufeinander zugreifen können. Im obigen Beispiel möchte das Interface *Programm* und alle Klassen, die es implementieren auf die Methode service() der Klasse Dienst zugreifen, bzw. diese verwenden. Dies ist allerdings nicht ohne Weiteres möglich. Dafür kann es diverse Gründe geben:
 
 - Das Datenformat, welches von *Programm* übergeben wird, ist nicht dasselbe wie das von Dienst. 
